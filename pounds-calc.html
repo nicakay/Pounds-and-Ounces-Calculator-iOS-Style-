@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pounds calculator</title>
+  <link type="text/css" rel="stylesheet" href="pounds-calc.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="calc">
+    <div id="title"><span class="titlebig"><span class="lboz">Pounds</span> <span class="asmd">&</span> <span
+          class="lboz">Ounces</span></span><br><span class="titlesmall">calculator</span></div>
+    <div class="display" id="output"></div>
+    <div class="input"><input type="text" id="addNumber"></div>
+    <div class="box reset" onclick="allClear()">AC</div>
+    <div class="box delete" onclick="del()">Del</div>
+    <div class="box sign" onclick="divide()">&divide;</div>
+    <div class="box" onclick="addNum(7)">7</div>
+    <div class="box" onclick="addNum(8)">8</div>
+    <div class="box" onclick="addNum(9)">9</div>
+    <div class="box sign" onclick="multiplicate()">x</div>
+    <div class="box" onclick="addNum(4)">4</div>
+    <div class="box" onclick="addNum(5)">5</div>
+    <div class="box" onclick="addNum(6)">6</div>
+    <div class="box sign" onclick="subtract()">-</div>
+    <div class="box" onclick="addNum(1)">1</div>
+    <div class="box" onclick="addNum(2)">2</div>
+    <div class="box" onclick="addNum(3)">3</div>
+    <div class="box sign" onclick="add()">+</div>
+    <div class="box zero" onclick="addNum(0)">0</div>
+    <div class="box dot" onclick="addNum(`.`)">.</div>
+    <div class="box equals" onclick="equals()">=</div>
+  </div>
+
+  <script type="text/javascript" src="pounds-calc.js"></script>
+</body>
+
+</html>
